@@ -9,7 +9,7 @@ eureka:
   instance:
     hostname: localhost    #服务注册中心实例的主机名
   client:
-    register-with-eureka: false    #是否向服务注册中心注册自己
-    fetch-registry: false    #是否检索服务
+    register-with-eureka: false    #关闭默认注册到eureka服务中心（该项目本身就是服务中心，无需自己注册自己）
+    fetch-registry: false    #关闭自动抓取服务端，该工程本身就是服务端
     service-url:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/    #服务注册中心的配置内容，指定服务注册中心的位置

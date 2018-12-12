@@ -13,6 +13,7 @@
     <modules>
         <module>server-eureka</module>
         <module>service-hi</module>
+        <module>service-ribbon</module>
     </modules>
 
     <parent>

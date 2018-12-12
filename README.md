@@ -27,6 +27,7 @@ Dubbo是阿里巴巴SOA服务化治理方案的核心框架，也是目前比较
 * spring-cloud-demo
     * server-eureka(端口：8061)：服务注册中心
     * service-hi(端口：8062、8063)：服务提供者
+    * service-ribbon(端口：8064)：服务消费者（基于rest+ribbon）
     
 ### spring-cloud-demo搭建
 本项目是maven的多模块项目。
